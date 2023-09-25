@@ -1,6 +1,8 @@
 import './App.scss'
 import Header from './components/Header';
-import Container from './components/Container';
+import Content from './components/Content';
+import Container from 'react-bootstrap/Container';
+
 
 
 
@@ -8,7 +10,9 @@ function App() {
   return (
  <div className='app-container'>
     <Header />
-    <Container />
+    <Container>
+        <Content />
+    </Container>
  </div>
   );
 }

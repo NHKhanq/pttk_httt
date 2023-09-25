@@ -1,0 +1,16 @@
+.content-container {
+    display: flex;
+
+    flex-wrap: wrap; /* Cho phép các phần tử tự động xuống hàng nếu không vừa vào */
+    justify-content: center; 
+
+    gap: 20px; /* Khoảng cách giữa các phần tử */
+  }
+  
+  .content-item {
+    border: 1px solid;
+    flex: 1; /* Phần tử sẽ tự co dãn để vừa vào container */
+    max-width: 300px; /* Giới hạn kích thước tối đa của mỗi phần tử */
+    display: inline;
+  }
+  
