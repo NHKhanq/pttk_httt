@@ -1,8 +1,8 @@
 import axios from "./axios";
 
-const fetchAPI = () => {
+const fetchAPI = (page) => {
     return (
-        axios.get("/api/users?page=2")
+        axios.get(`/api/users?page=${page}`)
     );
 }
 
