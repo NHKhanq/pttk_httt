@@ -28,7 +28,7 @@ function Content(props) {
   };
 
   return (
-    <div>
+    <div >
       <div className="content-container">
         {list.map((item, index) => (
           <div key={index} className="content-item">
@@ -38,7 +38,7 @@ function Content(props) {
           </div>
         ))}
       </div>
-      <ReactPaginate
+      <ReactPaginate 
 
         breakLabel="..."
         nextLabel="next >"
